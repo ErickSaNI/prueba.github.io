@@ -1,0 +1,45 @@
+/* cuerpo*/
+body{
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+    nav{
+            background-color: rgb(114, 100, 100);
+            padding:15px;
+            text-align:center;
+
+         }
+
+   nav a{
+    color: rgba(143, 11, 51, 0.808);
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+   }
+
+   /* imagenes*/
+   .carousel{
+    width:80%;
+    height:400px;
+    margin:30px auto;
+    overflow:hidden;
+    position:relative;
+    border-radius: 15px;
+}
+
+.carousel img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+    position:absolute;
+    opacity:0;
+    transition:1s;
+}
+
+.carousel img.active{
+    opacity:1;
+}
+h1{
+    text-align: center;
+}
